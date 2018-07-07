@@ -32,7 +32,7 @@ jobs:
         - run:
             name: Checkout duckietown repository
             command: |
-                git clone -b master --depth 1 git@github.com:duckietown/Software /tmp/git_repos/duckietown/Software/master
+                git clone -b master18 --depth 1 git@github.com:duckietown/Software /tmp/git_repos/duckietown/Software/master
                 ln -s /tmp/git_repos/duckietown/Software/master/ duckietown
 
         - run:
