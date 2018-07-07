@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         docker:
-        - image: andreacensi/mcdp_books:duckuments@sha256:307d478c8cedaff574e4a94303dae779547a513bd0641e3d4c236a5206b6c77b
+        - image: andreacensi/mcdp_books@sha256:307d478c8cedaff574e4a94303dae779547a513bd0641e3d4c236a5206b6c77b
           environment:
               COLUMNS: 160
               NODE_PATH: /project/node_modules

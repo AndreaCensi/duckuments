@@ -3,6 +3,9 @@
 # set -euo pipefail
 set -x # echo commands
 
+IMAGE=andreacensi/mcdp_books@sha256:307d478c8cedaff574e4a94303dae779547a513bd0641e3d4c236a5206b6c77b
+
+
 short=$1
 src=$2
 
@@ -75,7 +78,7 @@ mkdir -p ${dist}
 
 
 
-IMAGE=andreacensi/mcdp_books:duckuments
+
 
 echo IMAGE: ${IMAGE}
 
