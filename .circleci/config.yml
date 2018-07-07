@@ -57,10 +57,11 @@ jobs:
             command: |
                 make summaries
 
-        - run:
-            name: Link check
-            command: |
-                 . deploy/bin/activate && make linkcheck2 || true
+
+#        - run:
+#            name: Link check
+#            command: |
+#                 . deploy/bin/activate && make linkcheck2 || true
 
         - run:
             when: always
